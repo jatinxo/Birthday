@@ -10,6 +10,11 @@
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
+  <audio id="birthdayMusic" loop>
+  <source src="inaam.mp3" type="audio/mpeg">
+</audio>
+
+<script src="script.js"></script>
 <body>
 
   <div class="ambient ambient-1"></div>
@@ -18,6 +23,10 @@
 
   <header class="topbar">
     <div class="brand">J ✦ J</div>
+    <button id="musicBtn" class="music-btn" type="button">
+  <span>♪</span>
+  <span id="musicText">Play Music</span>
+</button>
   </header>
 
   <main>
