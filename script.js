@@ -42,3 +42,16 @@ document.querySelectorAll(".reveal").forEach(el => observer.observe(el));
 setInterval(() => {
   if (document.visibilityState === "visible") burstHearts(1);
 }, 4500);
+const musicBtn = document.getElementById("musicBtn");
+const musicText = document.getElementById("musicText");
+const birthdayMusic = document.getElementById("birthdayMusic");
+
+musicBtn.addEventListener("click", () => {
+  if (birthdayMusic.paused) {
+    birthdayMusic.play();
+    musicText.textContent = "Pause Music";
+  } else {
+    birthdayMusic.pause();
+    musicText.textContent = "Play Music";
+  }
+});
