@@ -1,24 +1,8 @@
-const music = document.getElementById("birthdayMusic");
-const musicBtn = document.getElementById("musicBtn");
-const musicText = document.getElementById("musicText");
+
 const surpriseBtn = document.getElementById("surpriseBtn");
 const celebrateBtn = document.getElementById("celebrateBtn");
 
-musicBtn.addEventListener("click", async () => {
-  if (music.paused) {
-    try {
-      await music.play();
-      musicText.textContent = "Pause Music";
-      musicBtn.classList.add("playing");
-    } catch (err) {
-      alert("Music file nahi mila. music folder me inaam.mp3 add kar do.");
-    }
-  } else {
-    music.pause();
-    musicText.textContent = "Play Music";
-    musicBtn.classList.remove("playing");
-  }
-});
+
 
 surpriseBtn.addEventListener("click", () => {
   document.getElementById("message").scrollIntoView({ behavior: "smooth" });
