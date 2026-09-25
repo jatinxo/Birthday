@@ -157,7 +157,7 @@ body::before {
   font: 600 38px var(--serif);
 }
 
-.photo-section, .message-section, .surprise-section {
+.message-section, .surprise-section {
   padding: 110px 0;
 }
 
