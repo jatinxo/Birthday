@@ -1,4 +1,4 @@
-# Jassi Birthday Website 🎂❤️
+# Jassi Bir thday Website 🎂❤️
 
 A premium, aesthetic birthday website made for Jassi by Jatin.
 
